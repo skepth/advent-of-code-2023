@@ -19,3 +19,19 @@ thoughts were as follows.
     * But iterating throug &str resulted in a char tuple. E.g. (0, 'o'), (1, 'n').
 * While looking at &str docs, I came across [match_indices](https://doc.rust-lang.org/std/primitive.str.html#method.match_indices), which was a perfect fit.
 * After some prototyping in rust playground ([link](https://play.rust-lang.org/?version=beta&mode=debug&edition=2015&gist=89ea333906aa2b4bcea573883a3dc869)), was able to successfully solve the puzzle.
+
+### Day 2
+
+#### Part 1
+
+* Wrote a parsing function to take the input and convert them to structs which
+are much more manageable.
+* I got the question wrong initially, I assumed that if any turn within a game
+was deemed 'impossible' then I ignored the game ID.
+* Unfortunately the unit test/example in the question was unable to catch the 
+error.
+
+#### Part 2
+
+* The language in the question was again a tad bit confusing but was able to
+figure out whats needed based on the described example.
