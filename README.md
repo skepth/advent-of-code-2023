@@ -35,3 +35,12 @@ error.
 
 * The language in the question was again a tad bit confusing but was able to
 figure out whats needed based on the described example.
+
+### Day 3
+
+#### Part 1 & 2
+
+* In this question, we could either anchor on the symbols first and check for
+number neighbors or we could do it the other way around.
+* I chose to parse the input as a 2D Vector so we can treat it like a
+coordinate system.
